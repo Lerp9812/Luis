@@ -1,2 +1,2 @@
-Welcome
-VTEX
+* Welcome
+* VTEX
