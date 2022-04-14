@@ -1,4 +1,4 @@
-## Antes de iniciar
+# Antes de iniciar
 Los requisitos para instalar el método de pago KueskiPay son los siguientes:
 * Identificar la edición de _VTEX_ que se está usando. Esta debe de ser **IO**.
 * La llave _KueskiPay_ Producción API Key provista por el equipo de Kueski antes de la instalación.
