@@ -1,7 +1,7 @@
 Los siguientes pasos a seguir son para configurar y personalizar el método de pago de _KueskiPay_ en VTEX, creando una afiliación entre su comercio y _KueskiPay_.<br>
 En esta sección también se definen las condiciones del método de pago con el que se van a realizar las compras.  
 
-### Antes de iniciar
+## Antes de iniciar
 Para iniciar la configuración del Payment Gateway de _KueskiPay_ es necesario tener lo siguiente:
 * La llave **Access Key** guardada en la sección **Generar Credenciales VTEX** en el paso 11. 
 * El _secret_ guardado en la sección **Generar Credenciales VTEX** en el paso 6.
