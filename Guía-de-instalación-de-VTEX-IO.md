@@ -112,7 +112,7 @@ Los siguientes pasos a seguir son para asignarle permisos del rol _KueskiPay_ a 
 ). <br>
 El rol _KueskiPay_ debe de verse en la tabla **Add roles**.
 7. Dar click al botón **SAVE**. <br>
-Nuestra _Access Key_ debe de estar Activa. 
+La llave _Access Key_ debe de estar Activa. 
 
 ![Screen Shot 2022-04-14 at 11 22 48](https://user-images.githubusercontent.com/101224062/163441153-5842bbde-cfa7-4581-bd61-5a5349ef08a4.png)
 
