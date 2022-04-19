@@ -6,9 +6,6 @@ Este documento provee información sobre la instalación del método de pago y e
 ### Audiencia
 Esta guía de instalación va dirigida a los administradores del e-commerce en _VTEX IO_.
 
-### Contenido
-Should i?
-
 ### Actualizaciones
 La siguiente tabla describe las últimas actualizaciones y los cambios más relevantes de la guía de instalación de _KueskiPay_ en _VTEX IO_.
 
