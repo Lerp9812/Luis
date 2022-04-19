@@ -48,7 +48,38 @@ Se abrirá un modal para seleccionar el archivo.
 ![Screen Shot 2022-04-19 at 14 46 43](https://user-images.githubusercontent.com/101224062/164092802-8d5bb057-464e-4c27-941c-e3ba1972e22e.png)
 
 10. Llenar los campos con la siguiente información:
-    * **Activate:** Active 
-<img width="392" alt="Screen Shot 2022-04-19 at 14 44 49" src="https://user-images.githubusercontent.com/101224062/164092961-3d90a392-97b5-439d-a8b5-8a9608ab6afd.png">
+    * **Activate:** `Active` <br> 
+        * Esta casilla es necesario que este seleccionada. Activa el widget de KueskiPay.
+        ![Screen Shot 2022-04-19 at 14 44 49](https://user-images.githubusercontent.com/101224062/164104360-bd3b950e-450d-463e-ae73-bb92388b0f3b.png)
 
+    * **Kueski API Key:** `{{API KEY}}` <br> 
+        * **Ejemplo:** `8a8b4ce1-a4d0-4205-912c-56b03afbb34f` <br> 
+        ![Screen Shot 2022-04-19 at 14 44 53](https://user-images.githubusercontent.com/101224062/164103927-8da93f00-561e-4902-9047-c862250baa74.png)
 
+    * **Kueski Secret Key:** `{{API SECRET}}` <br> 
+        * **Ejemplo:** `01409e49-bbe1-4574-be6d-995112990959` <br> 
+        ![Screen Shot 2022-04-19 at 14 45 08](https://user-images.githubusercontent.com/101224062/164094754-01d53d8c-c877-4ba5-a27f-3706f3de040c.png)
+
+    * **Leave orders with payment Accepted in Completed:** <br> 
+        * Esta casilla se recomienda dejarla vacía, ya que cambiará el estatus de la orden a **Completada** en cuanto se procese el pago, aun si el envío no se ha hecho. <br> ![Screen Shot 2022-04-19 at 14 45 15](https://user-images.githubusercontent.com/101224062/164104769-859c8070-06a6-4aeb-8001-358cc4448ede.png)
+
+    * **Modal:** 
+        * Esta casilla se recomienda dejarla vacía, ya que abre un modal al procesar el pago y en caso de tener bloqueadas las ventanas emergentes, causará un error.  <br> ![Screen Shot 2022-04-19 at 14 45 19](https://user-images.githubusercontent.com/101224062/164104865-92e83d58-4164-43da-baca-0af2dbb0a8f9.png)
+
+    * **Show widget on product sheet:** `Active` <br> 
+        * Esta casilla es necesario que este seleccionada. Muestra el widget de KueskiPay en la página del producto.
+        ![Screen Shot 2022-04-19 at 14 45 23](https://user-images.githubusercontent.com/101224062/164104937-643fa0d8-cd47-4dc4-8dcc-18f919542d24.png)
+
+    * **Show widget on cart summary:** `Active` <br> 
+        * Esta casilla es necesario que este seleccionada. Muestra el widget de KueskiPay en el carrito de compras. 
+        ![Screen Shot 2022-04-19 at 14 45 26](https://user-images.githubusercontent.com/101224062/164104989-a8f52915-fb9b-4225-930c-99e685cd4c11.png)
+
+    * **Sandbox Mode:** 
+        * Esta casilla es para activar el modo de prueba. Si se activa, los pagos no se verán procesados. <br> ![Screen Shot 2022-04-19 at 15 32 32](https://user-images.githubusercontent.com/101224062/164105428-b90291cd-699b-4327-a44f-f28a32bd9719.png)
+
+    * **Debug Mode:** `Active` <br> 
+        * Esta casilla es necesario que este seleccionada. Permite ver los logs en caso de haber un error.
+        ![Screen Shot 2022-04-19 at 14 45 33](https://user-images.githubusercontent.com/101224062/164105111-df5c5b23-d663-4e81-903a-c6d138436a30.png)
+
+11. Dar click al botón **Guardar los cambios**. <br>
+El plugin de _KueskiPay_ ya está configurado y funciona en tu comercio. 
