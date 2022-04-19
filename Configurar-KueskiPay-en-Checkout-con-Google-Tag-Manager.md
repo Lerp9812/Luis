@@ -14,7 +14,8 @@ Aparecerá un menú.
 
 4. Dar click al botón **Añadir nueva etiqueta**.<br>
 Se desplegará una página para configurar la etiqueta. 
-![Captura de Pantalla 2022-04-05 a la(s) 11 17 06](https://user-images.githubusercontent.com/101224062/163468120-cfcd9f96-2066-47d0-82ec-a3cbc3a6694c.png)
+![Captura de Pantalla 2022-04-05 a la(s) 11 17 06](https://user-images.githubusercontent.com/101224062/163468120-cfcd9f96-2066-47d0-82ec-a3cbc3a6694c.png) <br>
+> Imagen 1. Botón para añadir etiquetas
 
 5. En el campo **Etiqueta sin título** escribir `KueskiPay`.
 6. Dar click al botón editar (
@@ -23,6 +24,7 @@ Se desplegará una página para configurar la etiqueta.
 7. En la sección **Personalizado**, dar click a **HTML personalizado**. <br>
 Se abrirá un modal para agregar el HTML. 
 ![Captura de Pantalla 2022-04-05 a la(s) 11 34 05](https://user-images.githubusercontent.com/101224062/163468158-daf5b4ed-0692-463d-95ce-62f2989fb0b3.png)
+> Imagen 2. Botón para personalizar el HTML
 
 8. Pegar el siguiente código HTML en el campo **HTML**.
 Este código realiza el llamado a _KueskiPay_. 
@@ -40,6 +42,7 @@ Este código realiza el llamado a _KueskiPay_.
 ![Screen Shot 2022-04-14 at 13 27 30](https://user-images.githubusercontent.com/101224062/163462250-89478f3c-9e5e-4437-b795-f45454f4fc6e.png)
 ), el cual será visible al pasar el cursor sobre el cuadro de **Activación**.
 ![Captura de Pantalla 2022-04-05 a la(s) 11 31 19](https://user-images.githubusercontent.com/101224062/163468253-05a60722-b453-40bf-9319-643ce0e7370c.png)
+> Imagen 3. Botón para editar activación
 
 10. Dar click al botón **+** (
 ![Screen Shot 2022-04-14 at 13 27 58](https://user-images.githubusercontent.com/101224062/163462317-4e18caba-34ec-432c-a14b-ae5696c0001e.png)
@@ -49,6 +52,7 @@ Este código realiza el llamado a _KueskiPay_.
 13. En la sección **Otros** dar click a **Evento personalizado**.
 Se desplegará una página para configurar el activador.
 ![Captura de Pantalla 2022-04-05 a la(s) 11 35 07](https://user-images.githubusercontent.com/101224062/163468286-cf288c72-57ce-46cd-8b7c-362ff4ae73ec.png)
+> Imagen 4. Botón para configurar un evento personalizado
 
 14. Configurar un activador con referencia a la etiqueta de código _HTML_ previamente creada en el paso 7, de la siguiente manera:
 
@@ -60,13 +64,16 @@ Se desplegará una página para configurar el activador.
 15. Dar click al botón **Guardar**. <br>
 El activador está configurado. 
 ![Captura de Pantalla 2022-04-05 a la(s) 11 22 31](https://user-images.githubusercontent.com/101224062/163463270-4e256f23-24ff-4d69-9484-7ec54de357e0.png)
-
+> Imagen 5. Activador configurado
 
 
 16. Dar click al botón **Guardar**. <br>
-El activador ya quedó referenciado al HTML recién creado. 
+El activador quedó referenciado al HTML recién creado. 
 ![Captura de Pantalla 2022-04-05 a la(s) 11 27 59](https://user-images.githubusercontent.com/101224062/163467550-fa24c0bf-9827-4c1c-9bfb-9fc0e7db4e5c.png)
+> Imagen 6. Activador referenciado a HTML personalizado
+
 17. Dar click al botón **Enviar** para publicar los cambios del _Espacio de trabajo de Google Tag Manager_ para que se visualice la forma de pago dentro del checkout de _VTEX_.
 
 ![Captura de Pantalla 2022-04-05 a la(s) 11 36 13](https://user-images.githubusercontent.com/101224062/163467691-62f61058-8cad-4c37-a6a0-990ac7150dac.png)
+> Imagen 7. Botón para desplegar configuraciones
  
