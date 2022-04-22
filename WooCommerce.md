@@ -1,3 +1,11 @@
+# Antes de iniciar
+Los requisitos para instalar el método de pago KueskiPay son los siguientes:
+
+* Identificar la edición de VTEX que se está usando: IO.
+* La llave **KueskiPay Producción API Key** provista por el equipo de Kueski antes de la instalación.
+
+
+
 # Instalar plugin de KueskiPay
 Los siguientes pasos a seguir son necesarios para instalar el plugin de _KueskiPay_ en tu plataforma de WooCommerce y poder hacer uso de su método de pago. 
 
