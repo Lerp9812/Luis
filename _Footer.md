@@ -1,0 +1,1 @@
+WooCommerce Installation Guide 1.0.6
