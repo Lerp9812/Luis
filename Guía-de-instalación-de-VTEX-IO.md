@@ -45,10 +45,12 @@ Se abrirá una página para crear el nuevo rol.
   <td>
    <table>
     <tr>
-     <td>Payment-MakePAyments</td>
+     <td>Payment-MakePayments</td>
     </tr>
     <tr>
      <td>Payment-ViewPaymentData<br> 
+     . <br>
+     . <br>
      . </td>
     </tr>
     <tr>
@@ -62,12 +64,12 @@ Se abrirá una página para crear el nuevo rol.
      <td><ul><li>- [x] Process payments</li></ul></td>
     </tr>
     <tr>
-     <td>:heavy_check_mark: View Payment Data<br>
-         :heavy_check_mark: View Payments Sensitive Data
+     <td><ul><li>- [x] View Payment Data</li></ul><br>
+         <ul><li>- [x] View Payments Sensitive Data</li></ul>
      </td>
     </tr>
     <tr>
-     <td>:heavy_check_mark: Notify Payments</td>
+     <td><ul><li>- [x] Notify Payments</li></ul></td>
     </tr>
    </table>
   </td>
@@ -75,16 +77,16 @@ Se abrirá una página para crear el nuevo rol.
  <tr>
   <td><b>OMS</b></td>
   <td>OMS Access</td>
-  <td>:heavy_check_mark: Notify payments<br>
-      :heavy_check_mark: View order<br>
-      :heavy_check_mark: Notify refund<br>
-      :heavy_check_mark: Cancel order<br>
-      :heavy_check_mark: View store sales stats</td>
+  <td><ul><li>- [x] Notify payments</li></ul><br>
+      <ul><li>- [x] View order</li></ul><br>
+      <ul><li>- [x] Notify refund</li></ul><br>
+      <ul><li>- [x] Cancel order</li></ul><br>
+      <ul><li>- [x] View store sales stats</li></ul></td>
  </tr>
  <tr>
   <td><b>WebService</b></td>
   <td>Web service</td>
-  <td>:heavy_check_mark: Webservice access</td>
+  <td><ul><li>- [x] Webservice access</li></ul></td>
  </tr>
 </table>
 
