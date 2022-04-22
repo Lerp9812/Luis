@@ -33,7 +33,7 @@ Se abrirá un modal para seleccionar el archivo.
 
 ![Screen Shot 2022-04-19 at 14 35 07](https://user-images.githubusercontent.com/101224062/164091117-ebe60a8e-c0d1-4bcd-ab36-7d17e484a13e.png)
 
-> ✔️ El plugin de _KueskiPay_ está instalado.
+**✔️ El plugin de KueskiPay está instalado.**
 
 # Configurar plugin KueskiPay
 
