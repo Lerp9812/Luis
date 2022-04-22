@@ -96,4 +96,4 @@ Se abrirá un modal para seleccionar el archivo.
         ![Screen Shot 2022-04-19 at 14 45 33](https://user-images.githubusercontent.com/101224062/164105111-df5c5b23-d663-4e81-903a-c6d138436a30.png)
 
 4. Dar click al botón **Guardar los cambios**. <br>
-El plugin de _KueskiPay_ ya está configurado y funciona en tu comercio. 
+El plugin de _KueskiPay_ ya está configurado y listo para usar en el comercio. 
