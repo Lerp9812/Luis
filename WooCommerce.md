@@ -1,4 +1,4 @@
-#Instalar plugin de KueskiPay
+# Instalar plugin de KueskiPay
 Los siguientes pasos a seguir son necesarios para instalar el plugin de _KueskiPay_ en tu plataforma de WooCommerce y poder hacer uso de su método de pago. 
 
 1. Ingresar a su cuenta de WooCommerce.
@@ -33,13 +33,17 @@ Se abrirá un modal para seleccionar el archivo.
 
 ![Screen Shot 2022-04-19 at 14 35 07](https://user-images.githubusercontent.com/101224062/164091117-ebe60a8e-c0d1-4bcd-ab36-7d17e484a13e.png)
 
-8. Dar click al botón **Configuración** de la casilla **Kueski WooCommerce Plugin**.
+> ✔️ El plugin de _KueskiPay_ está instalado.
+
+# Configurar plugin KueskiPay
+
+1. Dar click al botón **Configuración** de la casilla **Kueski WooCommerce Plugin**.
 
 <img width="1789" alt="Screen Shot 2022-04-19 at 14 40 40" src="https://user-images.githubusercontent.com/101224062/164091988-601a10b7-330b-426a-899d-3f0de3fb4d87.png">
 
 > Imagen 5. Botón para configurar el plugin de KueskiPay
 
-9. Mandar el _URL_ del campo **Manual de Configuración** al personal de Kueski que proporcionó la guía de instalación.
+2. Mandar el _URL_ del campo **Manual de Configuración** al personal de Kueski que proporcionó la guía de instalación.
 
 <img width="1788" alt="Screen Shot 2022-04-19 at 14 43 47" src="https://user-images.githubusercontent.com/101224062/164092487-b021511d-2050-4960-96a9-5d644651c6db.png">
 
@@ -47,7 +51,7 @@ Se abrirá un modal para seleccionar el archivo.
 
 ![Screen Shot 2022-04-19 at 14 46 43](https://user-images.githubusercontent.com/101224062/164092802-8d5bb057-464e-4c27-941c-e3ba1972e22e.png)
 
-10. Llenar los campos con la siguiente información:
+3. Llenar los campos con la siguiente información:
     * **Activate:** `Active` <br> 
         * Esta casilla es necesario que este seleccionada. Activa el widget de KueskiPay.
         ![Screen Shot 2022-04-19 at 14 44 49](https://user-images.githubusercontent.com/101224062/164104360-bd3b950e-450d-463e-ae73-bb92388b0f3b.png)
@@ -81,5 +85,5 @@ Se abrirá un modal para seleccionar el archivo.
         * Esta casilla es necesario que este seleccionada. Permite ver los logs en caso de haber un error.
         ![Screen Shot 2022-04-19 at 14 45 33](https://user-images.githubusercontent.com/101224062/164105111-df5c5b23-d663-4e81-903a-c6d138436a30.png)
 
-11. Dar click al botón **Guardar los cambios**. <br>
+4. Dar click al botón **Guardar los cambios**. <br>
 El plugin de _KueskiPay_ ya está configurado y funciona en tu comercio. 
