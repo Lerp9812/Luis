@@ -2,10 +2,10 @@
 Los requisitos para instalar el método de pago KueskiPay son los siguientes:
 
 * Versión de _WooCommerce_ 1.0.6.
-* La llave _API KEY_ y el _API SECRET_ provista por el equipo de Kueski antes de la integración.
+* La llave **API KEY** y el **API SECRET** provista por el equipo de Kueski antes de la integración.
 
 > :bulb: **TIP:**  
-> Tener a la mano la llave _API KEY_ y _API SECRET_ proporcionada por el equipo de Kueski, ya que serán solicitadas durante la integración.
+> Tener a la mano la llave **API KEY** y **API SECRET** proporcionada por el equipo de Kueski, ya que serán solicitadas durante la integración.
 
 
 # Instalar plugin de KueskiPay
