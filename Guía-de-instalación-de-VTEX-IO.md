@@ -48,17 +48,17 @@ Los permisos están configurados.
 Los siguientes pasos a seguir son para asignarle permisos del rol _KueskiPay_ a los Application Keys.
 
 1. En el menú del lado izquierdo, seguir el siguiente flujo: **Account Settings** -> **Account management** -> **Application keys**.
-2. Dar click al botón **+ ADD** (
+2. Dar click al botón **+ ADD** 
 ![Screen Shot 2022-04-13 at 18 04 08](https://user-images.githubusercontent.com/101224062/163289027-98c15ccc-6d4d-4ce8-8695-47304d45f687.png)
-)
+
 3. En el campo **Key** escribir el _Access key_ guardada en la sección **Generar credenciales VTEX IO** en el paso 11.
-4. Dar click al botón **+ ADD Roles** (
+4. Dar click al botón **+ ADD Roles** 
 ![Screen Shot 2022-04-14 at 11 20 44](https://user-images.githubusercontent.com/101224062/163440842-97871f0d-8bd3-496a-8fcb-f31a420767da.png)
-).
+.
 5. Seleccionar el rol de **KueskiPay**.
-6. Dar click al botón **ADD ROLES** (
+6. Dar click al botón **ADD ROLES** 
 ![Screen Shot 2022-04-14 at 11 21 40](https://user-images.githubusercontent.com/101224062/163441008-70c62b8b-2dea-41ad-883d-9d5415192f1d.png)
-). <br>
+. <br>
 El rol _KueskiPay_ debe de verse en la tabla **Add roles**.
 7. Dar click al botón **SAVE**. <br>
 La llave _Access Key_ debe de estar Activa. 
