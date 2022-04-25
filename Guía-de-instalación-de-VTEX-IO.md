@@ -129,7 +129,7 @@ Saldrá el método de pago _KUESKI_ en **Payment Conditions**.
 ![Screen Shot 2022-04-14 at 13 15 20](https://user-images.githubusercontent.com/101224062/163460597-3221ee21-7c02-4637-8033-73b3e595c240.png)
  
 
-#Configurar KueskiPay en el checkout con Google Tag Manager
+# Configurar KueskiPay en el checkout con Google Tag Manager
 
 Los siguientes pasos a seguir son para configurar Google Tag Manager en el checkout.
 
