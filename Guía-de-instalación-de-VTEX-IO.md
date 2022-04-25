@@ -1,13 +1,13 @@
-# Antes de iniciar
+# Generar credenciales VTEX IO
+Los siguientes pasos a seguir son necesarios para generar las credenciales que serán asignadas a los roles y usuarios creados para el método de pago _KueskiPay_.
+
+## Antes de iniciar
 Los requisitos para instalar el método de pago KueskiPay son los siguientes:
 * Versión de VTEX **IO**.
 * La llave **KueskiPay Producción API Key** provista por el equipo de Kueski antes de la integración.
 
 > :bulb: **TIP:**  
 > Tener a la mano la llave **KueskiPay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
-
-# Generar credenciales VTEX IO
-Los siguientes pasos a seguir son necesarios para generar las credenciales que serán asignadas a los roles y usuarios creados para el método de pago _KueskiPay_.
 
 ## Generar Access Key y Secret
 En los siguientes pasos se generan y activan las llaves **Access Key** y **Secret**, que serán necesarias para la creación de roles y usuarios de _KueskiPay_. 
