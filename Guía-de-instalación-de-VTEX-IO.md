@@ -118,9 +118,9 @@ En esta sección se personaliza el método de pago _KueskiPay_, esta configuraci
 Se abrirá la página de Payment conditions.
 6. Llenar los campos de **Payment conditions** de la siguiente manera:
    * **Rule name:** `KueskiPay`
-   * **Status:** Active (
+   * **Status:** Active 
 ![Screen Shot 2022-04-14 at 13 12 44](https://user-images.githubusercontent.com/101224062/163460238-2a48fa1f-6df3-4b04-925c-938ab2d21d7c.png)
-)
+
    * **Process with affiliation:** `KueskiPay - New configuration`
 7. Dar click al botón **Save**. <br>
 Saldrá el método de pago _KUESKI_ en **Payment Conditions**.
