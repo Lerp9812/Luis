@@ -65,7 +65,7 @@ La llave _Access Key_ debe de estar Activa.
 
 ![Screen Shot 2022-04-14 at 11 22 48](https://user-images.githubusercontent.com/101224062/163441153-5842bbde-cfa7-4581-bd61-5a5349ef08a4.png)
 
-
+# Configurar Payment Gateway de KueskiPay
 Los siguientes pasos a seguir son para configurar y personalizar el método de pago de _KueskiPay_ en VTEX, creando una afiliación entre su comercio y _KueskiPay_.<br>
 En esta sección también se definen las condiciones del método de pago con el que se van a realizar las compras.  
 
