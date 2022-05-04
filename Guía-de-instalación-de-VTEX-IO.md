@@ -15,9 +15,12 @@ En los siguientes pasos se generan y activan las llaves **Access Key** y **Secre
 2. En el menú del lado izquierdo, seguir el siguiente flujo **ACCOUNT SETTINGS** -> **Account management** -> **Account**.
 3. En la sección **Security** dar click al botón **Generate access key and secret.** <br>
 Se abrirá un modal con título **New access key and secret**
-4. En el campo **Choose a name for the new access key and secret pair** escribir `Kueskipay-secret`.
+![Screen Shot 2022-05-04 at 15 56 14](https://user-images.githubusercontent.com/101224062/166832288-d6bd46a7-9ee1-4cf1-ab14-2536ecff98f9.png)
+
+4. En el campo **Choose a name for the new access key and secret pair** escribir `KueskiPay-secret`.
 5. Dar click al botón **Generate new secret**.
 6. Guardar el _secret_ que se acaba de generar en un lugar seguro, ya que será usado mas adelante.
+![Screen Shot 2022-05-04 at 15 58 03](https://user-images.githubusercontent.com/101224062/166832471-93ee4fbb-01bd-429a-8bf3-b87aab504199.png)
 
 > :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
 > No se podrá acceder al _secret_ una vez cerrada la ventana. En caso de no haberlo guardado, será necesario repetir la sección **Generar las Credenciales VTEX**.
@@ -25,6 +28,7 @@ Se abrirá un modal con título **New access key and secret**
 7. Dar click al botón **Close**.
 8. En la sección **Security** verificar que la llave de **Kueskipay-secret** tenga su **Token Status** como _Active_.
 9. Copiar y Guardar la llave **Access Key** en un lugar seguro, ya que será usado mas adelante. 
+![Screen Shot 2022-05-14 at 16 01 48](https://user-images.githubusercontent.com/101224062/166832919-f1e7f0b8-f955-4a47-966d-71b18a145936.png)
 
 ## Creación de roles
 Los siguientes pasos a seguir son para crear los roles de _KueskiPay_ y otorgarles los permisos necesarios para el buen funcionamiento del método de pago.
@@ -52,6 +56,8 @@ Los siguientes pasos a seguir son para asignarle permisos del rol _KueskiPay_ a 
 ![Screen Shot 2022-04-13 at 18 04 08](https://user-images.githubusercontent.com/101224062/163289027-98c15ccc-6d4d-4ce8-8695-47304d45f687.png)
 
 3. En el campo **Key** escribir el _Access key_ guardada en la sección **Generar credenciales VTEX IO** en el paso 11.
+![Screen Shot 2022-05-04 at 16 03 58](https://user-images.githubusercontent.com/101224062/166833193-212123d6-5517-4a7e-9665-edc8ed43ff51.png)
+
 4. Dar click al botón **+ ADD Roles** 
 ![Screen Shot 2022-04-14 at 11 20 44](https://user-images.githubusercontent.com/101224062/163440842-97871f0d-8bd3-496a-8fcb-f31a420767da.png)
 .
@@ -75,17 +81,19 @@ Para iniciar la configuración del Payment Gateway de _KueskiPay_ es necesario t
 * El _secret_ guardado en la sección **Generar Credenciales VTEX** en el paso 6.
 * La llave **KueskiPay Producción API Key** provista por el equipo de Kueski antes de la instalación.
 
-![Screen Shot 2022-04-14 at 11 26 58](https://user-images.githubusercontent.com/101224062/163441808-e0954b0c-0d42-4283-a222-8e23c7ebc75f.png)
+> :bulb: **TIP:**  
+> Tener a la mano la llave **KueskiPay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
 
 ## Habilitar la afiliación de KueskiPay
 En esta sección es necesario otorgar los permisos para habilitar y configurar la afiliación de KueskiPay en su comercio mediante las llaves proporcionadas por Kueski.
 
 1. En el menú del lado izquierdo, seguir el siguiente flujo: **TRANSACTIONS** -> **Payments** -> **Settings**.
 2. Dar click a la pestaña **Gateway Affilliations**.
+![Screen Shot 2022-05-04 at 16 19 58](https://user-images.githubusercontent.com/101224062/166835024-24ec38e8-475a-416d-b7b1-0fb0ccc93d47.png)
+
 3. Dar click al botón **Agregar** (
 ![Screen Shot 2022-04-14 at 12 30 05](https://user-images.githubusercontent.com/101224062/163454180-7ab24802-1a80-4ab0-a8b5-33eaf2b8257e.png)
 ) para agregar una afiliación. <br>
-Se abrirá la siguiente página. 
 4. En la sección **OTHERS**, dar click al conector **KueskiPay** ( 
 ![Screen Shot 2022-04-14 at 12 31 22](https://user-images.githubusercontent.com/101224062/163454340-3329d4d3-f063-492c-9b52-897c3725b1ac.png)
 ).<br> 
@@ -93,16 +101,25 @@ Se abrirá un formulario para configurar la afiliación de KueskiPay.
 5. Llenar los campos con la siguiente información:
    * **Affiliation name:** `KueskiPay - New configuration`.
    * **Application Key:** `prod_{{Access Key}}_{{Kueskipay Producción API Key}}` <br>
-   Ejemplo: `prod_vtexappkey-kueski-HHWTPJ_2b7642b-3j9c-12c4-3c68`
+   Ejemplo: `prod_vtexappkey-kueski-HGWRPJ_3b7442b-3j2c-12c4-3f68`
+![Screen Shot 2022-05-04 at 16 15 21](https://user-images.githubusercontent.com/101224062/166834416-b2194562-c31a-4330-a678-3ca7aa5d4f15.png)
+
    * **Application Token:** _secret_.
-6. Dar click al botón **Save**.
+![Screen Shot 2022-05-04 at 16 18 00](https://user-images.githubusercontent.com/101224062/166834699-102b3565-e408-4195-a16a-c952b21ee9d4.png)
+
+6. Dar click al botón **Save**. <br>
 La afiliación ya está dada de alta. 
 
 ## Configurar pago personalizado KueskiPay
 En esta sección se personaliza el método de pago _KueskiPay_, esta configuración es definida por Kueski y se tienen que seguir los siguientes pasos:
 1. En el menú del lado izquierdo, seguir el siguiente flujo: **TRANSACTIONS** -> **Payments** -> **Settings**.
 2. Dar click a la pestaña **Custom payments**.
-3. En la sección **Notes Payables** dar click al primer cuadro que diga **Config**. Se abrirá un formulario para configurar el _custom payment_.
+![Screen Shot 2022-05-04 at 16 19 03](https://user-images.githubusercontent.com/101224062/166834884-2242d99f-088a-4761-9628-f8f96030917e.png)
+
+3. En la sección **Notes Payables** dar click al primer cuadro que diga **Config**. <br>
+Se abrirá un formulario para configurar el _custom payment_.
+![Screen Shot 2022-05-04 at 16 25 02](https://user-images.githubusercontent.com/101224062/166835447-898fd479-f16b-4640-ac33-aee9edce95be.png)
+
 4. Llenar los campos de _custom payment_ con la siguiente información:
    * **Name:** `KUESKI`
    * **Description:** `Método de pago con KueskiPay`
@@ -112,22 +129,31 @@ En esta sección se personaliza el método de pago _KueskiPay_, esta configuraci
    * **Split payment:** `No`
    * **Automatic invoicing:** `15`
 
-![Screen Shot 2022-04-14 at 13 11 13](https://user-images.githubusercontent.com/101224062/163460041-f81ce54e-9068-4440-9e16-ecc36a607a81.png)
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> El campo **Name** debe de ser **KUESKI**, si se pone otro nombre se generará un error. <br>
+> En caso de necesitar algún cambio en otro campo de la configuración, es necesario confirmar con el equipo de KueskiPay y VTEX, ya que podrían verse afectados los procesos de KueskiPay en su comercio. 
 
 5. Dar click al botón **Save**. <br>
 Se abrirá la página de Payment conditions.
 6. Llenar los campos de **Payment conditions** de la siguiente manera:
    * **Rule name:** `KueskiPay`
+![Screen Shot 2022-05-04 at 13 59 33](https://user-images.githubusercontent.com/101224062/166816294-5dfda646-9e22-42a6-a3f4-b34a27e1636c.png)
+
    * **Status:** Active 
 ![Screen Shot 2022-04-14 at 13 12 44](https://user-images.githubusercontent.com/101224062/163460238-2a48fa1f-6df3-4b04-925c-938ab2d21d7c.png)
 
    * **Process with affiliation:** `KueskiPay - New configuration`
 7. Dar click al botón **Save**. <br>
 Saldrá el método de pago _KUESKI_ en **Payment Conditions**.
+
+![Screen Shot 2022-04-04 at 15 47 12](https://user-images.githubusercontent.com/101224062/166831489-046b3420-d056-4c77-8570-4dd889a60dd5.png)
+
 8. Guardar el _ID_ de **Payment Conditions**, ya que será requerido más adelante.
 
-![Screen Shot 2022-04-14 at 13 15 20](https://user-images.githubusercontent.com/101224062/163460597-3221ee21-7c02-4637-8033-73b3e595c240.png)
- 
+![Screen Shot 2022-04-04 at 15 35 21](https://user-images.githubusercontent.com/101224062/166831611-c2e9a808-6522-4905-9660-83186f3cfb69.png)
+
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> La configuración hecha en _Payment conditions_ puede tardar hasta 10 minutos en verse reflejado en el checkout.
 
 # Configurar KueskiPay en el checkout con Google Tag Manager
 
