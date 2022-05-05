@@ -1,13 +1,13 @@
 ## Guía de instalación y configuración para método de pago y widget de KueskiPay
 
 ### Propósito
-Este documento provee información sobre la instalación del método de pago y el widget de _KueskiPay_ para la interfaz en la plataforma _VTEX_ versión _IO_. Con esta instalación se podrán completar compras exitosas mediante el método de pago _KueskiPay_ y estará desplegado el widget en su e-commerce para dar a conocer a sus clientes que se tiene ese método de pago disponible en su comercio.
+Este documento provee información sobre la instalación del método de pago y el widget de _KueskiPay_ para distintas interfaces. Con esta instalación se podrán completar compras exitosas mediante el método de pago _KueskiPay_ y estará desplegado el widget en su e-commerce para dar a conocer a sus clientes que se tiene ese método de pago disponible en su comercio.
 
 ### Audiencia
-Esta guía de instalación va dirigida a los administradores del e-commerce en _VTEX IO_.
+Esta guía de instalación va dirigida a los administradores del e-commerce.
 
 ### Actualizaciones
-La siguiente tabla describe las últimas actualizaciones y los cambios más relevantes de la guía de instalación de _KueskiPay_ en _VTEX IO_.
+La siguiente tabla describe las últimas actualizaciones y los cambios más relevantes de la guía de instalación de _KueskiPay_.
 
 | Actualización | Sección | Fecha |
 | :------------- | :------- | :------|
