@@ -50,4 +50,78 @@ Los requisitos para instalar el método de pago KueskiPay son los siguientes:
 
 1. Dar click al botón cerrar (X) para cerrar la página de configuración. <br>
 Se abrirá la página de inicio. 
+2. En el menú del lado izquierdo, seguir el siguiente flujo **Canales de venta** -> **Tienda online** -> **Temas**.
+3. Dar click al botón **Acciones**. <br>
+Se desplegará un menú.
+<img width="1783" alt="Screen Shot 2022-04-28 at 17 41 05" src="https://user-images.githubusercontent.com/101224062/167026436-3b821ce9-e1be-4468-86b5-91a5d5bebb99.png">
+
+> **Imagen 5. Menú del botón Acciones
+
+4. Dar click a **Editar código**.
+5. En la columna de archivos, dar click a la carpeta **Snippets**.
+6. Dar click a **Agregar un nuevo snippet**. <br>
+Se abrirá un modal con el titulo **Agregar un nuevo fragmento de código**. 
+<img width="624" alt="Screen Shot 2022-04-27 at 14 21 33" src="https://user-images.githubusercontent.com/101224062/167026629-52b4c681-1063-4c31-818d-3ef7cc1e5fe1.png">
+
+> **Imagen 6. Modal para asignar nombre al snippet
+
+7. En el campo **Crea un nuevo fragmento de código llamado** escribir `kp-product-page-snippet`.
+8. Dar click al botón **Crear fragmento de código**. <br>
+Se creará un archivo .liquid en blanco.
+9. Pegar el siguiente código:
+```ruby
+<!-- Trigger/Open The Modal -->
+<kueskipay-widget
+     data-kpay-widget-type="product"
+     data-kpay-widget-font-size="15"
+     data-kpay-widget-text-align="left"
+     data-kpay-widget-amount="{{ product.price }}"
+     data-kpay-widget-product-name="{{ product.title }}">
+</kueskipay-widget>
+<script id="kpay-advertising-script"
+src="https://cdn.kueskipay.com/widgets.js?authorization={{API-KEY}}&sandbox=false&integration=shopify&version=v1.0">
+</script>
+<script type="">new KueskipayAdvertising().init()</script>
+```
+
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> Reemplazar el texto **API-KEY** por la llave _Public API Key_ proporcionada por el equipo de Kueski.
+ 
+<img width="1270" alt="Screen Shot 2022-05-05 at 15 27 07" src="https://user-images.githubusercontent.com/101224062/167028459-2547d8e7-f32d-463f-b284-3ccb3f181495.png">
+
+> **Imagen 6. Ejemplo de snippet con API-KEY en archivo kp-product-page-snippet.liquid**
+
+10. Dar click al botón **Guardar**. <br>
+Saldrá un mensaje con el texto _Asset saved_.
+11. En la columna de archivos dar click a la carpeta **Sections**. 
+12. Abrir el archivo **main-product.liquid**.
+
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> En caso de no encontrar tal archivo, tratar con los siguientes: **main-product-footer.liquid** o **product-template.liquid**.<br>
+En caso de no existir ninguno de los archivos antes mencionados, contactar directamente a Kueski. 
+
+12. Identificar en el código el siguiente fragmento:<br>
+`{%- if shop.taxes_included or shop.shipping_policy.body != blank -%} `
+
+<img width="1257" alt="Screen Shot 2022-05-04 at 16 36 33" src="https://user-images.githubusercontent.com/101224062/167029384-a69e9217-5395-41d4-9689-61a6cee017c3.png">
+
+> **Imagen 7. Herramienta para identificar fragmento de código
+
+> :bulb: **TIP:**  
+> Usar buscador para localizar el fragmento de código:<br>
+Mac: **cmd** + **f**
+Windows: **ctrl** + **f**
+
+13. Posicionar el cursor al inicio del código del paso anterior. 
+<img width="1267" alt="Screen Shot 2022-05-04 at 16 38 39" src="https://user-images.githubusercontent.com/101224062/167029728-93e18ccc-b0af-4aa0-b355-806eb9bf2de3.png">
+
+> **Imagen 8. Cursor al inicio de la línea de código**
+
+14. Dar enter. <br>
+Quedará una línea en blanco.
+<img width="1264" alt="Screen Shot 2022-05-04 at 16 40 45" src="https://user-images.githubusercontent.com/101224062/167029818-8412d1d4-9ae3-4143-b0d3-870ab3ff6864.png">
+
+> **Imagen 9. Línea en blanco antes del fragmento de código**
+
+15. 
 
