@@ -47,6 +47,7 @@ Los requisitos para instalar el método de pago KueskiPay son los siguientes:
 > Tener a la mano la llave _API KEY_ proporcionada por el equipo de Kueski, ya que serán necesarias durante la integración. 
 
 ## Instalación de widget en página de producto
+Para instalar el widget de KueskiPay y sea visible en la página de producto es necesario seguir los siguientes pasos: 
 
 1. Dar click al botón cerrar (X) para cerrar la página de configuración. <br>
 Se abrirá la página de inicio. 
@@ -136,6 +137,75 @@ Quedará una línea en blanco.
 
 **El widget está instalado y ya es visible en la página de producto.**
 
+## Instalación de widget en página de producto
+Para instalar el widget de KueskiPay y sea visible en la página de carrito de compras es necesario seguir los siguientes pasos: 
 
+1. En la columna de archivos, dar click a la carpeta de **Snippets**.
+2. Dar click a **Agregar un nuevo snippet**. <br>
+Se abrirá un modal con el título **Agregar un nuevo fragmento de código**.
+<img width="624" alt="Screen Shot 2022-04-27 at 14 21 33" src="https://user-images.githubusercontent.com/101224062/167201976-a7840e06-9b23-4178-92c5-42aebb29b0eb.png">
 
+> **Imagen 11. Modal para agregar nombre al snippet**
 
+3. En el campo **Crea un nuevo fragmento de código llamado** escribir `kp-cart-page-snippet`
+4. Dar click al botón **Crear fragmento de código**. <br>
+Se creará un archivo _.liquid_ en blanco.
+5. Pegar el siguiente código:
+
+```ruby
+<!-- Trigger/Open The Modal -->
+<kueskipay-widget
+     data-kpay-widget-type="cart"
+     data-kpay-widget-font-size="15"
+     data-kpay-widget-text-align="right"
+     data-kpay-widget-amount="{{ cart.total_price }}">
+</kueskipay-widget>
+<script id="kpay-advertising-script" 
+src="https://cdn.kueskipay.com/widgets.js?authorization={{APIKEY}}&sandbox=false&integration=shopify&version=v1.0">
+</script>
+<script type="">new KueskipayAdvertising().init()</script>
+```
+
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> Reemplazar el texto **API-KEY** por la llave _Public API Key_ proporcionada por el equipo de Kueski.
+ 
+<img width="1785" alt="Screen Shot 2022-05-04 at 16 47 53" src="https://user-images.githubusercontent.com/101224062/167202461-de4d9da7-d533-4152-9af4-955e34431e41.png">
+
+> **Imagen 12. Ejemplo de snippet con API-KEY en archivo kp-cart-page-snippet.liquid**
+
+6. Dar click al botón **Guardar**. <br>
+Saldrá un mensaje de texto diciendo _Asset saved_.
+7. En la carpeta **Sections** buscar el archivo **main-cart-footer.liquid**
+8. Identificar en el código el siguiente fragmento: `<small class="tax-note caption-large rte">`
+
+<img width="1267" alt="Screen Shot 2022-05-04 at 16 52 10" src="https://user-images.githubusercontent.com/101224062/167202881-53025d2c-8bf1-448a-adbc-2e92ac24943d.png">
+
+> **Imagen 13. Herramienta para identificar fragmento de código**
+
+> :bulb: **TIP:**  
+> Usar buscador para localizar el fragmento de código:<br>
+Mac: **cmd** + **f**
+Windows: **ctrl** + **f**
+
+9. Posicionar el cursor al inicio del código del paso anterior.
+<img width="1261" alt="Screen Shot 2022-05-04 at 16 54 12" src="https://user-images.githubusercontent.com/101224062/167203050-020c9dfd-aa20-4dc3-a3d4-f950c8ea2e57.png">
+
+> **Imagen 14. Cursor al inicio de la línea de código**
+
+10. Dar enter. <br>
+Quedará una línea en blanco.
+<img width="1263" alt="Screen Shot 2022-05-04 at 16 56 04" src="https://user-images.githubusercontent.com/101224062/167203138-470fd586-04f9-41bf-b95b-80d95d3fbcf8.png">
+
+> **Imagen 15. Línea en blanco antes del fragmento de código**
+
+11. En la línea en blanco, copiar el siguiente fragmento de código: `{% include 'kp-cart-page-snippet' %}`
+<img width="1259" alt="Screen Shot 2022-05-04 at 16 58 03" src="https://user-images.githubusercontent.com/101224062/167203302-0d4c39f8-b0e8-4eed-9982-6d8ffdf46bb2.png">
+
+> **Imagen 16. Fragmento de código posicionado**
+
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> Si al terminar la instalación, se muestra el siguiente error: **Include usage not allowed in this context** será necesario cambiar el fragmento del paso **15** por el siguiente: `{% render 'kp-cart-page-snippet' %}`
+
+12. Dar click al botón **Guardar**.
+
+**El widget está instalado y ya es visible en la página de carrito de compras.**
