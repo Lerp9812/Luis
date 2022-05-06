@@ -123,5 +123,19 @@ Quedará una línea en blanco.
 
 > **Imagen 9. Línea en blanco antes del fragmento de código**
 
-15. 
+15. En la línea en blanco, copiar el siguiente fragmento de código: <br>
+`{% include 'kp-product-page-snippet' %}`
+<img width="1264" alt="Screen Shot 2022-05-04 at 16 42 31" src="https://user-images.githubusercontent.com/101224062/167200952-c574a122-6304-4f73-a429-c4fb5cf8f0c8.png">
+
+> **Imagen 10. Fragmento de código posicionado**
+
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> Si al terminar la instalación, se muestra el siguiente error: **Include usage not allowed in this context** será necesario cambiar el fragmento del paso **15** por el siguiente: `{% render 'kp-product-page-snippet' %}`
+
+16. Dar click al botón **Guardar**.
+
+**El widget está instalado y ya es visible en la página de producto.**
+
+
+
 
