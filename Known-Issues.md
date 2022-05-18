@@ -1,3 +1,5 @@
+# Errores de Conciliación
+
 Known issues de conciliación identificados en las siguientes plataformas:
 - Shopify
 - WooCommerce
