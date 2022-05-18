@@ -5,7 +5,6 @@ Known issues de conciliación identificados en las siguientes plataformas:
 - VTEX
 - API
 
-A continuación se describirá el error conocido, su solución y si es del lado del merchant o de la plataforma. 
 
 ### WooCommerce
 Los siguientes errores fueron identificados en la plataforma de WooCommerce en las integraciones.
