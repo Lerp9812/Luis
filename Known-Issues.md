@@ -17,11 +17,10 @@ Elegir mal el método de autenticación puede lanzar los siguientes errores:
 `invalid api_secret provided` o `invalid JWT provided`<br>
 
 **Solución:** Elegir el método de autenticación de acuerdo a la siguiente tabla:
-| Auth method               | Plain                         | JWT                   |
-| ------------------------- | ----------------------------- |-----------------------|
-| Versión plugin Kueski Pay | 1.0.4 y anteriores            | 1.0.5 y 1.0.6         |
-| Error message             | `invalid api_secret provided` | `invalid JWT provided`|
-
+| Auth method   | Versión plugin Kueski Pay     | Error message                 |
+| ------------- | ----------------------------- |------------------------------ |
+| Plain         | 1.0.5 y anteriores            | `invalid api_secret provided` |
+| JWT           | 1.0.6 y 1.0.7                 | `invalid JWT provided`        |
 
 ### Plugin de Firewall instalado: 
 Error generado porque el comercio tiene instalado un plugin anti firewall. Los firewalls identificados hasta el momento son:
@@ -35,7 +34,58 @@ Error generado porque el comercio tiene instalado un plugin anti firewall. Los f
 | 34.228.88.107  | 54.83.122.50 <br> 34.201.31.235 <br> 34.205.87.241 <br> 54.145.36.91 <br> 54.162.85.69 | 
 
 
-### Widget KueskiPay version 1.0.6 incompatible con servidor Apache:
+### KueskiPay widget version 1.0.6 incompatible con servidor Apache:
 Error que se genera cuando se intenta instalar el plugin versión 1.0.6 en una plataforma montada en un servidor Apache. El servidor Apache bloquea el envío de las llaves secretas a Kueski y no permite terminar el proceso de solicitud de préstamo. 
 
 **Solución:** Bajar de versión del plugin instalado en la plataforma. Es necesario instalar el plugin versión 1.0.4 en lugar de la versión 1.0.6
+
+## PrestaShop
+Los siguientes errores fueron identificados en la plataforma de PrestaShop.
+
+### Inconsistencia en el método de autenticación: 
+Error que se genera por elegir el método de autenticación incorrecto. El método de autenticación depende de la versión del plugin de KueskiPay que se vaya a instalar en PrestaShop. 
+Elegir mal el método de autenticación puede lanzar los siguientes errores:
+`invalid api_secret provided` o `invalid JWT provided`<br>
+
+**Solución:** Elegir el método de autenticación de acuerdo a la siguiente tabla:
+| Auth method   | Versión plugin Kueski Pay     | Error message                 |
+| ------------- | ----------------------------- |------------------------------ |
+| Plain         | 1.0.5 y anteriores            | `invalid api_secret provided` |
+| JWT           | 1.0.6 y 1.0.7                 | `invalid JWT provided`        |
+
+### Plugin de Firewall instalado: 
+Error generado porque el comercio tiene instalado un plugin anti firewall. Los firewalls identificados hasta el momento son:
+- Jet Pack
+- Cloudflare
+
+**Solución:** Pedirle al merchant que su proveedor agregue las siguientes IPs a la lista blanca:
+
+| Sandbox        | Production   | 
+| -------------- | ------------ |
+| 34.228.88.107  | 54.83.122.50 <br> 34.201.31.235 <br> 34.205.87.241 <br> 54.145.36.91 <br> 54.162.85.69 | 
+
+### KueskiPay widget version 1.0.6 incompatible con servidor Apache:
+Error que se genera cuando se intenta instalar el plugin versión 1.0.6 en una plataforma montada en un servidor Apache. El servidor Apache bloquea el envío de las llaves secretas a Kueski y no permite terminar el proceso de solicitud de préstamo. 
+
+**Solución:** Bajar de versión del plugin instalado en la plataforma. Es necesario instalar el plugin versión 1.0.4 en lugar de la versión 1.0.6
+
+## Magento
+Los siguientes errores fueron identificados en la plataforma de Magento.
+### Plugin de Firewall instalado: 
+Error generado porque el comercio tiene instalado un plugin anti firewall. Los firewalls identificados hasta el momento son:
+- Jet Pack
+- Cloudflare
+
+**Solución:** Pedirle al merchant que su proveedor agregue las siguientes IPs a la lista blanca:
+
+| Sandbox        | Production   | 
+| -------------- | ------------ |
+| 34.228.88.107  | 54.83.122.50 <br> 34.201.31.235 <br> 34.205.87.241 <br> 54.145.36.91 <br> 54.162.85.69 | 
+
+## Tienda Nube
+Los siguientes errores fueron identificados en la plataforma de Tienda Nube.
+
+### Servidor de Conexa deja de funcionar:
+Error generado porque el servidor de Conexa se cae constantemente y no puede completar la conciliación. 
+
+**Solución:** No hay una por el momento. 
