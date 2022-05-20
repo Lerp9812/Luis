@@ -1,6 +1,6 @@
 # Errores de Conciliación
 
-Un error de conciliación ocurre cuando Kueski hace un request y el merchant tiene problemas para regresar el response con el estatus requerido por Kueski. Esto ocasiona que el préstamo no se pueda llevar a cabo. <br>
+Un error de conciliación ocurre cuando Kueski hace un request y el merchant tiene problemas para regresar el response con el estatus requerido por Kueski. Esto ocasiona que el préstamo no se pueda llevar a cabo y la compra no se efectúe. <br>
 Los known issues de conciliación fueron identificados en las siguientes plataformas:
 - WooCommerce
 - Prestashop
