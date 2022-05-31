@@ -29,5 +29,13 @@ La instalación iniciará automáticamente.
    * **Estado de una Orden con Error o Pago Inválido:** Error en pago <br>
    * **Ventana Modal (El cliente no saldrá de tu página):** No <br>
 
-> :page_facing_up: **TIP:**  
-> Tener a la mano la llave **KueskiPay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
+> :page_facing_up: **NOTA:**  
+> Esta configuración te abre otra ventana en forma de modal, por lo tanto, si tu navegador está configurado para no permitirlos, no se verá el método de pago de KueskiPay.
+
+   * **Activar Log:** Sí
+
+9. Dar click al botón **Guardar cambios**.
+
+10. Mandar el URL del campo **Notificaciones** al personal de Kueski que proporcionó la guía de instalación. 
+
+**El método de pago y widget de KueskiPay se encuentran instalados.**
