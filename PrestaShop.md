@@ -28,4 +28,6 @@ La instalación iniciará automáticamente.
    * **Estado de una Orden Aceptada:** Pago aceptado <br>
    * **Estado de una Orden con Error o Pago Inválido:** Error en pago <br>
    * **Ventana Modal (El cliente no saldrá de tu página):** No <br>
- 
+
+> :page_facing_up: **TIP:**  
+> Tener a la mano la llave **KueskiPay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
