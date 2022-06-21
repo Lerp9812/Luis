@@ -137,7 +137,7 @@ Quedará una línea en blanco.
 
 **El widget está instalado y ya es visible en la página de producto.**
 
-## Instalación de widget en página de producto
+## Instalación de widget en carrito de compras
 Para instalar el widget de KueskiPay y sea visible en la página de carrito de compras es necesario seguir los siguientes pasos: 
 
 1. En la columna de archivos, dar click a la carpeta de **Snippets**.
