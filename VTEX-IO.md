@@ -159,6 +159,9 @@ Saldrá el método de pago _KUESKI_ en **Payment Conditions**.
 
 Los siguientes pasos a seguir son para configurar Google Tag Manager en el checkout.
 
+> :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
+> Google Tag Manager solo esta disponible con las credenciales de **sandbox**, por esta razón es importante no cambiar a las llaves de producción.
+
 ## Antes de iniciar
 Para iniciar la configuración de Google Tag Manager es necesario tener lo siguiente:
 * Tener una cuenta de Google con acceso a _Google Tag Manager_.
