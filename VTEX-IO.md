@@ -100,8 +100,11 @@ En esta sección es necesario otorgar los permisos para habilitar y configurar l
 Se abrirá un formulario para configurar la afiliación de KueskiPay. 
 5. Llenar los campos con la siguiente información:
    * **Affiliation name:** `KueskiPay - New configuration`.
-   * **Application Key:** `prod_{{Access Key}}_{{Kueskipay Producción API Key}}` <br>
+   * **Application Key:**
+      * **Ambiente de producción:** `prod_{{Access Key}}_{{Kueskipay Producción API Key}}` <br>
    Ejemplo: `prod_vtexappkey-kueski-HGWRPJ_3b7442b-3j2c-12c4-3f68`
+      * **Ambiente de sandbox:** `sandbox_{{Access Key}}_{{Kueskipay Sandbox API Key}}` <br>
+   Ejemplo: `sandbox_vtexappkey-kueski-HGWRPJ_3b7442b-3j2c-12c4-3f68`
 ![Screen Shot 2022-05-04 at 16 15 21](https://user-images.githubusercontent.com/101224062/166834416-b2194562-c31a-4330-a678-3ca7aa5d4f15.png)
 
    * **Application Token:** _secret_.
