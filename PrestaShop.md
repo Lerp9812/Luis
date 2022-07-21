@@ -5,19 +5,19 @@ Los siguientes pasos a seguir son necesarios para instalar el módulo de _Kueski
 
 1. Descarga el módulo de KueskiPay en la [página de PrestaShop](https://addons.prestashop.com/es/pago-tarjeta-carteras-digitales/51986-kueski-pay-compra-a-plazos-y-sin-tarjeta.html). 
 
-2. Da click al botón **Descargar**.
+2. Haz clic en el botón **Descargar**.
 
 3. Inicia sesión en PrestaShop Marketplace. 
 
 4. En el menú del lado izquierdo, sigue el siguiente flujo: **MEJORAS** -> **Módulos** -> **Módulos y Servicios**. 
 
-5. Da click al botón **Subir un módulo**. <br>
+5. Haz clic en el botón **Subir un módulo**. <br>
 Se abrirá un modal para subir el módulo. 
 
 6. Selecciona el archivo **v1.0.7-kueski.zip** <br>
 La instalación iniciará automáticamente. 
 
-7. Da click al botón **Configurar**.
+7. Haz clic en el botón **Configurar**.
 
 8. Llena los campos con la siguiente información:
    * **API KEY:** {{API KEY}} <br>
@@ -34,7 +34,7 @@ La instalación iniciará automáticamente.
 
    * **Activar Log:** Sí
 
-9. Da click al botón **Guardar cambios**.
+9. Haz clic en el botón **Guardar cambios**.
 
 10. Manda el URL del campo **Notificaciones** al personal de Kueski que proporcionó la guía de instalación. 
 
