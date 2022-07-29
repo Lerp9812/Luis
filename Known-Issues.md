@@ -31,7 +31,7 @@ Error generado porque el comercio tiene instalado un plugin anti firewall. Los f
 
 | Sandbox        | Production   | 
 | -------------- | ------------ |
-| 34.228.88.107  | 54.83.122.50 <br> 34.201.31.235 <br> 34.205.87.241 <br> 54.145.36.91 <br> 54.162.85.69 | 
+| 34.228.88.107  | 107.22.173.170 <br> 34.227.141.157 <br> 54.162.241.13 <br> 34.239.83.96 <br> 44.206.91.122 <br> 3.229.238.39 | 
 
 
 ### KueskiPay widget version 1.0.6 incompatible con servidor Apache:
@@ -62,7 +62,7 @@ Error generado porque el comercio tiene instalado un plugin anti firewall. Los f
 
 | Sandbox        | Production   | 
 | -------------- | ------------ |
-| 34.228.88.107  | 54.83.122.50 <br> 34.201.31.235 <br> 34.205.87.241 <br> 54.145.36.91 <br> 54.162.85.69 | 
+| 34.228.88.107  | 107.22.173.170 <br> 34.227.141.157 <br> 54.162.241.13 <br> 34.239.83.96 <br> 44.206.91.122 <br> 3.229.238.39 | 
 
 ### KueskiPay widget version 1.0.6 incompatible con servidor Apache:
 Error que se genera cuando se intenta instalar el plugin versión 1.0.6 en una plataforma montada en un servidor Apache. El servidor Apache bloquea el envío de las llaves secretas a Kueski y no permite terminar el proceso de solicitud de préstamo. 
@@ -80,7 +80,7 @@ Error generado porque el comercio tiene instalado un plugin anti firewall. Los f
 
 | Sandbox        | Production   | 
 | -------------- | ------------ |
-| 34.228.88.107  | 54.83.122.50 <br> 34.201.31.235 <br> 34.205.87.241 <br> 54.145.36.91 <br> 54.162.85.69 | 
+| 34.228.88.107  | 107.22.173.170 <br> 34.227.141.157 <br> 54.162.241.13 <br> 34.239.83.96 <br> 44.206.91.122 <br> 3.229.238.39 | 
 
 ## Tienda Nube
 Los siguientes errores fueron identificados en la plataforma de Tienda Nube.
