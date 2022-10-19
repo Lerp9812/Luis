@@ -1,5 +1,5 @@
-# Instalar método de pago KueskiPay
-Los siguientes pasos a seguir son necesarios para instalar el método de pago KueskiPay en la plataforma _Shopify_
+# Instalar método de pago Kueski Pay
+Los siguientes pasos a seguir son necesarios para instalar el método de pago Kueski Pay en la plataforma _Shopify_
 
 1. En la parte inferior izquierda, haz clic en **configuración**.
 2. En el menú de la izquierda, haz clic en **Pagos**.
@@ -33,13 +33,13 @@ Saldrá un mensaje con el texto _Kueski Pay: Compra sin tarjeta activado_.
 
 > **Imagen 4. Botón para activar Kueski Pay**
 
-**El método de pago KueskiPay ha quedado instalado y activo en la plataforma Shopify.**
+**El método de pago Kueski Pay ha quedado instalado y activo en la plataforma Shopify.**
 
-# Instala Widget de KueskiPay
-Los siguientes pasos a seguir son necesarios para instalar el widget _KueskiPay_ en la plataforma de Shopify, para que sea visible desde la página de producto y carrito de compras.
+# Instala Widget de Kueski Pay
+Los siguientes pasos a seguir son necesarios para instalar el widget _Kueski Pay_ en la plataforma de Shopify, para que sea visible desde la página de producto y carrito de compras.
 
 ## Antes de iniciar
-Los requisitos para instalar el método de pago KueskiPay son los siguientes:
+Los requisitos para instalar el método de pago Kueski Pay son los siguientes:
 
 - La llave _API KEY_ provista por el equipo de Kueski antes de la integración. 
 
@@ -47,7 +47,7 @@ Los requisitos para instalar el método de pago KueskiPay son los siguientes:
 > Tener a la mano la llave _API KEY_ proporcionada por el equipo de Kueski, ya que serán necesarias durante la integración. 
 
 ## Instalación de widget en página de producto
-Para instalar el widget de KueskiPay y sea visible en la página de producto es necesario seguir los siguientes pasos: 
+Para instalar el widget de Kueski Pay y sea visible en la página de producto es necesario seguir los siguientes pasos: 
 
 1. Haz clic en el botón cerrar (X) para cerrar la página de configuración. <br>
 Se abrirá la página de inicio. 
@@ -138,7 +138,7 @@ Quedará una línea en blanco.
 **El widget está instalado y ya es visible en la página de producto.**
 
 ## Instalación de widget en carrito de compras
-Para instalar el widget de KueskiPay y sea visible en la página de carrito de compras es necesario seguir los siguientes pasos: 
+Para instalar el widget de Kueski Pay y sea visible en la página de carrito de compras es necesario seguir los siguientes pasos: 
 
 1. En la columna de archivos, haz clic en la carpeta de **Snippets**.
 2. Haz clic en **Agregar un nuevo snippet**. <br>
