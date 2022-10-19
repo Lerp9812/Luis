@@ -1,16 +1,16 @@
 # Generar credenciales VTEX IO
-Los siguientes pasos a seguir son necesarios para generar las credenciales que serán asignadas a los roles y usuarios creados para el método de pago _KueskiPay_.
+Los siguientes pasos a seguir son necesarios para generar las credenciales que serán asignadas a los roles y usuarios creados para el método de pago _Kueski Pay_.
 
 ## Antes de iniciar
-Los requisitos para instalar el método de pago KueskiPay son los siguientes:
+Los requisitos para instalar el método de pago Kueski Pay son los siguientes:
 * Versión de VTEX **IO**.
-* La llave **KueskiPay Producción API Key** provista por el equipo de Kueski antes de la integración.
+* La llave **Kueski Pay Producción API Key** provista por el equipo de Kueski antes de la integración.
 
 > :bulb: **TIP:**  
-> Ten a la mano la llave **KueskiPay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
+> Ten a la mano la llave **Kueski Pay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
 
 ## Generar Access Key y Secret
-En los siguientes pasos se generan y activan las llaves **Access Key** y **Secret**, que serán necesarias para la creación de roles y usuarios de _KueskiPay_. 
+En los siguientes pasos se generan y activan las llaves **Access Key** y **Secret**, que serán necesarias para la creación de roles y usuarios de _Kueski Pay_. 
 1. Accede a tu cuenta de VTEX con permisos de _Admin_.
 2. En el menú del lado izquierdo, sigue el siguiente flujo **ACCOUNT SETTINGS** -> **Account management** -> **Account**.
 3. En la sección **Security** haz clic en el botón **Generate access key and secret.** <br>
@@ -31,7 +31,7 @@ Se abrirá un modal con título **New access key and secret**
 ![Screen Shot 2022-05-14 at 16 01 48](https://user-images.githubusercontent.com/101224062/166832919-f1e7f0b8-f955-4a47-966d-71b18a145936.png)
 
 ## Creación de roles
-Los siguientes pasos a seguir son para crear los roles de _KueskiPay_ y otorgarles los permisos necesarios para el buen funcionamiento del método de pago.
+Los siguientes pasos a seguir son para crear los roles de _Kueski Pay_ y otorgarles los permisos necesarios para el buen funcionamiento del método de pago.
 
 1. En el menú del lado izquierdo, sigue el siguiente flujo **ACCOUNT SETTINGS** -> **Account management** -> **Roles**.
 2. Haz clic en el botón **New Role**. <br>
@@ -43,13 +43,13 @@ Se abrirá una página para crear el nuevo rol.
 ![Screen Shot 2022-04-13 at 17 59 56](https://user-images.githubusercontent.com/101224062/163288671-47c93d24-fb72-4411-9225-567fc766370f.png)
 
 > :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
-> Marca solo las casillas mostradas en la **Tabla 1**, ya que de haber una configuración diferente, puede causar errores en el funcionamiento de KueskiPay.
+> Marca solo las casillas mostradas en la **Tabla 1**, ya que de haber una configuración diferente, puede causar errores en el funcionamiento de Kueski Pay.
 
 6. haz clic en el botón **Save**.<br>
 Los permisos están configurados. 
 
 ## Asignación de permisos a Application Keys
-Los siguientes pasos a seguir son para asignarle permisos del rol _KueskiPay_ a los Application Keys.
+Los siguientes pasos a seguir son para asignarle permisos del rol _Kueski Pay_ a los Application Keys.
 
 1. En el menú del lado izquierdo, sigue el siguiente flujo: **Account Settings** -> **Account management** -> **Application keys**.
 2. Haz clic en el botón **+ ADD** 
@@ -61,30 +61,30 @@ Los siguientes pasos a seguir son para asignarle permisos del rol _KueskiPay_ a 
 4. Haz clic en el botón **+ ADD Roles** 
 ![Screen Shot 2022-04-14 at 11 20 44](https://user-images.githubusercontent.com/101224062/163440842-97871f0d-8bd3-496a-8fcb-f31a420767da.png)
 .
-5. Selecciona el rol de **KueskiPay**.
+5. Selecciona el rol de **Kueski Pay**.
 6. Haz clic en el botón **ADD ROLES** 
 ![Screen Shot 2022-04-14 at 11 21 40](https://user-images.githubusercontent.com/101224062/163441008-70c62b8b-2dea-41ad-883d-9d5415192f1d.png)
 . <br>
-El rol _KueskiPay_ debe de verse en la tabla **Add roles**.
+El rol _Kueski Pay_ debe de verse en la tabla **Add roles**.
 7. Haz clic en el botón **SAVE**. <br>
 La llave _Access Key_ debe de estar Activa. 
 
 ![Screen Shot 2022-04-14 at 11 22 48](https://user-images.githubusercontent.com/101224062/163441153-5842bbde-cfa7-4581-bd61-5a5349ef08a4.png)
 
-# Configura Payment Gateway de KueskiPay
-Los siguientes pasos a seguir son para configurar y personalizar el método de pago de _KueskiPay_ en VTEX, creando una afiliación entre su comercio y _KueskiPay_.<br>
+# Configura Payment Gateway de Kueski Pay
+Los siguientes pasos a seguir son para configurar y personalizar el método de pago de _Kueski Pay_ en VTEX, creando una afiliación entre su comercio y _Kueski Pay_.<br>
 En esta sección también se definen las condiciones del método de pago con el que se van a realizar las compras.  
 
 ## Antes de iniciar
-Para iniciar la configuración del Payment Gateway de _KueskiPay_ es necesario tener lo siguiente:
+Para iniciar la configuración del Payment Gateway de _Kueski Pay_ es necesario tener lo siguiente:
 * La llave **Access Key** guardada en la sección **Generar Credenciales VTEX** en el paso 11. 
 * El _secret_ guardado en la sección **Generar Credenciales VTEX** en el paso 6.
-* La llave **KueskiPay Producción API Key** provista por el equipo de Kueski antes de la instalación.
+* La llave **Kueski Pay Producción API Key** provista por el equipo de Kueski antes de la instalación.
 
 > :bulb: **TIP:**  
-> Ten a la mano la llave **KueskiPay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
+> Ten a la mano la llave **Kueski Pay Producción API Key** proporcionada por el equipo de Kueski, ya que será solicitada durante la integración.
 
-## Habilitar la afiliación de KueskiPay
+## Habilitar la afiliación de Kueski Pay
 En esta sección es necesario otorgar los permisos para habilitar y configurar la afiliación de KueskiPay en su comercio mediante las llaves proporcionadas por Kueski.
 
 1. En el menú del lado izquierdo, sigue el siguiente flujo: **TRANSACTIONS** -> **Payments** -> **Settings**.
@@ -94,16 +94,16 @@ En esta sección es necesario otorgar los permisos para habilitar y configurar l
 3. Haz clic en el botón **Agregar** (
 ![Screen Shot 2022-04-14 at 12 30 05](https://user-images.githubusercontent.com/101224062/163454180-7ab24802-1a80-4ab0-a8b5-33eaf2b8257e.png)
 ) para agregar una afiliación. <br>
-4. En la sección **OTHERS**, dar click al conector **KueskiPay** ( 
+4. En la sección **OTHERS**, dar click al conector **Kueski Pay** ( 
 ![Screen Shot 2022-04-14 at 12 31 22](https://user-images.githubusercontent.com/101224062/163454340-3329d4d3-f063-492c-9b52-897c3725b1ac.png)
 ).<br> 
-Se abrirá un formulario para configurar la afiliación de KueskiPay. 
+Se abrirá un formulario para configurar la afiliación de Kueski Pay. 
 5. Llena los campos con la siguiente información:
-   * **Affiliation name:** `KueskiPay - New configuration`.
+   * **Affiliation name:** `Kueski Pay - New configuration`.
    * **Application Key:**
-      * **Ambiente de producción:** `prod_{{Access Key}}_{{Kueskipay Producción API Key}}` <br>
+      * **Ambiente de producción:** `prod_{{Access Key}}_{{Kueski Pay Producción API Key}}` <br>
    Ejemplo: `prod_vtexappkey-kueski-HGWRPJ_3b7442b-3j2c-12c4-3f68`
-      * **Ambiente de sandbox:** `sandbox_{{Access Key}}_{{Kueskipay Sandbox API Key}}` <br>
+      * **Ambiente de sandbox:** `sandbox_{{Access Key}}_{{Kueski Pay Sandbox API Key}}` <br>
    Ejemplo: `sandbox_vtexappkey-kueski-HGWRPJ_3b7442b-3j2c-12c4-3f68`
 ![Screen Shot 2022-05-04 at 16 15 21](https://user-images.githubusercontent.com/101224062/166834416-b2194562-c31a-4330-a678-3ca7aa5d4f15.png)
 
@@ -113,8 +113,8 @@ Se abrirá un formulario para configurar la afiliación de KueskiPay.
 6. Haz clic en el botón **Save**. <br>
 La afiliación ya está dada de alta. 
 
-## Configura pago personalizado KueskiPay
-En esta sección se personaliza el método de pago _KueskiPay_, esta configuración es definida por Kueski y se tienen que seguir los siguientes pasos:
+## Configura pago personalizado Kueski Pay
+En esta sección se personaliza el método de pago _Kueski Pay_, esta configuración es definida por Kueski y se tienen que seguir los siguientes pasos:
 1. En el menú del lado izquierdo, sigue el siguiente flujo: **TRANSACTIONS** -> **Payments** -> **Settings**.
 2. Haz clic en la pestaña **Custom payments**.
 ![Screen Shot 2022-05-04 at 16 19 03](https://user-images.githubusercontent.com/101224062/166834884-2242d99f-088a-4761-9628-f8f96030917e.png)
@@ -125,7 +125,7 @@ Se abrirá un formulario para configurar el _custom payment_.
 
 4. Llena los campos de _custom payment_ con la siguiente información:
    * **Name:** `KUESKI`
-   * **Description:** `Método de pago con KueskiPay`
+   * **Description:** `Método de pago con Kueski Pay`
    * **Notes payables expiration date:** `3`
    * **Automatic authorization:** `No`
    * **Change margin range:** `0`
@@ -134,18 +134,18 @@ Se abrirá un formulario para configurar el _custom payment_.
 
 > :warning: :heavy_exclamation_mark: **IMPORTANTE:**  
 > El campo **Name** debe de ser **KUESKI**, si se pone otro nombre se generará un error. <br>
-> En caso de necesitar algún cambio en otro campo de la configuración, es necesario confirmar con el equipo de KueskiPay y VTEX, ya que podrían verse afectados los procesos de KueskiPay en su comercio. 
+> En caso de necesitar algún cambio en otro campo de la configuración, es necesario confirmar con el equipo de Kueski Pay y VTEX, ya que podrían verse afectados los procesos de Kueski Pay en su comercio. 
 
 5. Haz clic en el botón **Save**. <br>
 Se abrirá la página de Payment conditions.
 6. Llena los campos de **Payment conditions** de la siguiente manera:
-   * **Rule name:** `KueskiPay`
+   * **Rule name:** `Kueski Pay`
 ![Screen Shot 2022-05-04 at 13 59 33](https://user-images.githubusercontent.com/101224062/166816294-5dfda646-9e22-42a6-a3f4-b34a27e1636c.png)
 
    * **Status:** Active 
 ![Screen Shot 2022-04-14 at 13 12 44](https://user-images.githubusercontent.com/101224062/163460238-2a48fa1f-6df3-4b04-925c-938ab2d21d7c.png)
 
-   * **Process with affiliation:** `KueskiPay - New configuration`
+   * **Process with affiliation:** `Kueski Pay - New configuration`
 7. Haz clic en el botón **Save**. <br>
 Saldrá el método de pago _KUESKI_ en **Payment Conditions**.
 
@@ -182,7 +182,7 @@ Se desplegará una página para configurar la etiqueta.
 ![Captura de Pantalla 2022-04-05 a la(s) 11 17 06](https://user-images.githubusercontent.com/101224062/163468120-cfcd9f96-2066-47d0-82ec-a3cbc3a6694c.png) <br>
 > Imagen 1. Botón para añadir etiquetas
 
-5. En el campo **Etiqueta sin título** escribe `KueskiPay`.
+5. En el campo **Etiqueta sin título** escribe `Kueski Pay`.
 6. Haz clic en el botón editar (
 ![Screen Shot 2022-04-14 at 13 23 14](https://user-images.githubusercontent.com/101224062/163461638-99a70468-5b3d-40cd-8221-0fae3a23a512.png)
 ) del cuadro **Configuración de la etiqueta**, el cual será visible al pasar el cursor sobre él.
@@ -192,7 +192,7 @@ Se abrirá un modal para agregar el HTML.
 > Imagen 2. Botón para personalizar el HTML
 
 8. Pega el siguiente código HTML en el campo **HTML**.
-Este código realiza el llamado a _KueskiPay_. 
+Este código realiza el llamado a _Kueski Pay_. 
 ```html
 <script type="text/javascript" id='kpay-advertising-script' src="https://cdn.kueskipay.com/widgets.js?authorization=API-KEY&sandbox=true&integration=vtex"></script>
 <script type="text/javascript">
@@ -212,7 +212,7 @@ Este código realiza el llamado a _KueskiPay_.
 10. Haz clic en el botón **+** (
 ![Screen Shot 2022-04-14 at 13 27 58](https://user-images.githubusercontent.com/101224062/163462317-4e18caba-34ec-432c-a14b-ae5696c0001e.png)
 ).
-11. En el campo **Activador sin título** escribe `Activador KueskiPay`.
+11. En el campo **Activador sin título** escribe `Activador Kueski Pay`.
 12. Haz clic en el botón editar (![Screen Shot 2022-04-14 at 13 27 30](https://user-images.githubusercontent.com/101224062/163462250-89478f3c-9e5e-4437-b795-f45454f4fc6e.png) ), el cual será visible al pasar el cursor sobre el cuadro de Configuración del activador.
 13. En la sección **Otros** haz clic en **Evento personalizado**.
 Se desplegará una página para configurar el activador.
