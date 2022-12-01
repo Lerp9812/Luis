@@ -23,7 +23,16 @@ php bin/magento setup:di:compile
 php bin/magento cache:clean
 php bin/magento cache:flush
 ```
+# Actualizar plugin Kueski Pay
+En caso de tener el módulo instalado y desactualizado, será necesario actualizarlo ejecutando los siguientes comandos en la terminal:
 
-
+```
+composer clear-cache
+composer update kueski/magento2-payment
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento cache:clean
+php bin/magento cache:flush
+```
 
 
