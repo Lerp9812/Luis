@@ -11,7 +11,7 @@ Los siguientes pasos a seguir son necesarios para instalar _KueskiPay_ en Tienda
 # Descarga de KueskiPay
 
 1. Inicia sesión con tus credenciales en [Tiendanube](https://www.tiendanube.com/login).
-2. Ingresa a las [aplicaciones de Tiendanube](http://www.tiendanube.con.mx/tienda-aplicaciones-nube/3618/install). 
+2. Ingresa a las [aplicaciones de Tiendanube](https://www.tiendanube.com.mx/tienda-aplicaciones-nube/kueski-pay). 
 3. Haz clic en el botón **Aceptar y empezar a usar**, para aceptar los permisos solicitados por app. <br>
 
 <img width="1092" alt="Screen Shot 2022-08-08 at 16 44 20" src="https://user-images.githubusercontent.com/101224062/183527154-2486aaf2-77b4-43c9-a5d9-26c922066a90.png">
