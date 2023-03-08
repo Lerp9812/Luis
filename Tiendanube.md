@@ -1,14 +1,19 @@
-# Antes de iniciar
-Los requisitos para instalar el método de pago KueskiPay son los siguientes:
+# Kueski Pay 
+Kueski Pay es un método de pago donde tienes la opción de comprar ahora y pagar después en cómodas quincenas, sin la necesidad de tener una tarjeta.
 
-* La llave **API pública** y la **API secreta** provista por el equipo de _KueskiPay_ antes de la integración.
+Para ofrecer Kueski Pay en nuestro comercio primero debemos instalar su plugin, en esta guía te diremos como: 
+
+# Antes de iniciar
+Los requisitos para instalar el método de pago Kueski Pay son los siguientes:
+
+* La llave **API pública** y la **API secreta** provista por el equipo de Kueski Pay antes de la integración.
 
 > :bulb: **TIP:**  
 > Tener a la mano la llave **API pública** y **API secreta** proporcionada por el equipo de Kueski, ya que serán solicitadas durante la integración.
 
-Los siguientes pasos a seguir son necesarios para instalar _KueskiPay_ en Tiendanube.
+Los siguientes pasos a seguir son necesarios para instalar _Kueski Pay_ en Tiendanube.
 
-# Descarga de KueskiPay
+# Descarga de Kueski Pay
 
 1. Inicia sesión con tus credenciales en [Tiendanube](https://www.tiendanube.com/login).
 2. Ingresa a las [aplicaciones de Tiendanube](https://www.tiendanube.com.mx/tienda-aplicaciones-nube/kueski-pay). 
