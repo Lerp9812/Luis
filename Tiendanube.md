@@ -65,3 +65,5 @@ Se mostrará un mensaje de éxito si la instalación fue realizada correctamente
 > **Imagen 5. Mensaje de éxito.**
 
 KueskiPay ha sido instalado en tu plataforma de **Tiendanube**. 
+
+# Configura el widget de Kueski Pay
