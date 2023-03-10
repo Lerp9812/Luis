@@ -1,9 +1,9 @@
-# Kueski Pay 
+# Instalar Kueski Pay en Tiendanube
 Kueski Pay es un método de pago donde tienes la opción de comprar ahora y pagar después en cómodas quincenas, sin la necesidad de tener una tarjeta.
 
 Para ofrecer Kueski Pay en nuestro comercio primero debemos instalar su aplicación, en esta guía te diremos como.
 
-# Antes de iniciar
+## Antes de iniciar
 Los requisitos para iniciar la instalación de Kueski Pay son los siguientes:
 
 * Tener una cuenta en Tiendanube
@@ -16,7 +16,7 @@ En caso de no tenerlas, contactar al equipo de Kueski Pay (Poner correo?).
 
 Una vez contemos con las llaves, debemos de seguir los siguientes pasos para instalar la aplicación de Kueski Pay en Tiendanube:
 
-# Configura Tiendanube
+## Configura Tiendanube
 Es indispensable configurar las opciones del checkout de tu Tiendanube para que la aplicación de Kueski Pay se muestre correctamente.
 
 1. Ingresa al **Administrador de Tiendanube**. (Agregar link)
@@ -29,7 +29,7 @@ Es indispensable configurar las opciones del checkout de tu Tiendanube para que 
 
 4. Haz clic al botón **Guardar cambios** ubicado en la parte inferior. 
 
-# Instala aplicación de Kueski Pay
+## Instala aplicación de Kueski Pay
 Podemos empezar con la instalación de la aplicación de Kueski Pay una vez terminemos con la configuración de Tiendanube.
 
 1. Ingresa a la [tienda de aplicaciones de Tiendanube](https://www.tiendanube.com.mx/tienda-aplicaciones-nube/kueski-pay).  
@@ -46,7 +46,7 @@ Podemos empezar con la instalación de la aplicación de Kueski Pay una vez term
 
 Una vez aceptados los permisos se abrirá la pantalla de configuración de Kueski Pay. 
 
-# Configuración de Kueski Pay
+## Configuración de Kueski Pay
 Cuando tengamos la aplicación instalada el siguiente paso es configurar Kueski Pay para que sepa que comercio somos.
 
 1. Llena los siguientes campos con sus respectivas llaves:
