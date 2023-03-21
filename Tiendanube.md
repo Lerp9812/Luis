@@ -12,14 +12,14 @@ Los requisitos para iniciar la instalación de Kueski Pay son los siguientes:
 
 > :warning: **IMPORTANTE:** 
 > Tener a la mano las llaves **API pública** y **API secreta** proporcionadas por el equipo de Kueski, ya que serán solicitadas durante la integración. <br>
-En caso de no tenerlas, contactar al equipo de Kueski Pay (Poner correo?).
+En caso de no tenerlas, contactar al equipo de Kueski Pay.
 
 Una vez contemos con las llaves, debemos de seguir los siguientes pasos para instalar la aplicación de Kueski Pay en Tiendanube:
 
 ## Configura Tiendanube
 Es indispensable configurar las opciones del checkout de tu Tiendanube para que la aplicación de Kueski Pay se muestre correctamente.
 
-1. Ingresa al **Administrador de Tiendanube**. (Agregar link)
+1. Ingresa al **Administrador de Tiendanube**. 
 2. En el menú del lado izquierdo ir a la sección **Configuración** > **Opciones de checkout**.
 3. Selecciona la casilla **Pedir teléfono de contacto**. 
 
@@ -67,3 +67,6 @@ Se mostrará un mensaje de éxito si la instalación fue realizada correctamente
 KueskiPay ha sido instalado en tu plataforma de **Tiendanube**. 
 
 # Configura el widget de Kueski Pay
+El widget de Kueski Pay que se muestra en tu comercio puede tener diferentes estilos para adecuarse al diseño de tu comercio. Para saber como editarlo sigue los siguientes pasos:
+
+
