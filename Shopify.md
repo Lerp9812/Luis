@@ -106,7 +106,7 @@ En caso de no existir ninguno de los archivos antes mencionados, contacta direct
 
 <img width="1257" alt="Screen Shot 2022-05-04 at 16 36 33" src="https://user-images.githubusercontent.com/101224062/167029384-a69e9217-5395-41d4-9689-61a6cee017c3.png">
 
-> **Imagen 7. Herramienta para identificar fragmento de código
+> **Imagen 7. Herramienta para identificar fragmento de código**
 
 > :bulb: **TIP:**  
 > Usa el buscador para localizar el fragmento de código:<br>
