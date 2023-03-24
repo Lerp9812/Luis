@@ -194,7 +194,7 @@ Se abrirá un modal para agregar el HTML.
 8. Pega el siguiente código HTML en el campo **HTML**.
 Este código realiza el llamado a _Kueski Pay_. 
 ```html
-<script type="text/javascript" id='kpay-advertising-script' src="https://cdn.kueskipay.com/widgets.js?authorization=API-KEY&sandbox=true&integration=vtex"></script>
+<script type="text/javascript" id='kpay-advertising-script' src="https://cdn.kueskipay.com/widgets.js?authorization=API-KEY&sandbox=false&integration=vtex"></script>
 <script type="text/javascript">
   new KueskipayAdvertising({
     paymentConditionsId: 201,
