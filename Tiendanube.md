@@ -67,6 +67,9 @@ Se mostrará un mensaje de éxito si la instalación fue realizada correctamente
 KueskiPay ha sido instalado en tu plataforma de **Tiendanube**. 
 
 # Configura el widget de Kueski Pay
-El widget de Kueski Pay que se muestra en tu comercio puede tener diferentes estilos para adecuarse al diseño de tu comercio. Para saber como editarlo sigue los siguientes pasos:
+El widget de Kueski Pay que se muestra en tu comercio puede tener diferentes estilos para adecuarse al diseño de tu comercio. Sigue los siguientes pasos para configurar el widget:
 
+1. Ingresa al [Configurador de widgets promocionales](https://kueski-tiendanube.comercio.ai/web-component?locale=es&store=1161492).
+2. Copia el URL de algún producto de tu comercio. 
+3. Pega el URL del paso anterior en el campo **Url de producto**.
 
